@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    /* background-color: lightseagreen; */
+    font-family: 'Roboto';
+}
+h1{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+p{
+    color: #241c1c;
+    font-size: 18px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    margin:20px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.btn{
+    border: none;
+    padding: 10px;
+    color:brown;
+    background-color: antiquewhite;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.show{
+    display: none;
+}
